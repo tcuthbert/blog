@@ -1,3 +1,6 @@
 [submodule "site-src/blog-content"]
 	path = site-src/blog-content
 	url = git@github.com:AustinRochford/blog-content.git
+[submodule "_site"]
+	path = _site
+	url = git@github.com:tcuthbert/tcuthbert.github.io.git

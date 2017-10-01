@@ -90,11 +90,11 @@ extensions = Set.fromList [Ext_inline_notes, Ext_raw_html, Ext_tex_math_dollars]
 
 feedConfig :: FeedConfiguration
 feedConfig = FeedConfiguration {
-        feedTitle       = "AustinRochford.com",
-        feedDescription = "Math, Data, and Software",
-        feedAuthorName  = "Austin Rochford",
-        feedAuthorEmail = "austin.rochford@gmail.com",
-        feedRoot        = "http://austinrochford.com"
+        feedTitle       = "Thomas Cuthbert's Blog",
+        feedDescription = "Networking, Linux and Software",
+        feedAuthorName  = "Thomas Cuthbert",
+        feedAuthorEmail = "tcuthbert@gmail.com",
+        feedRoot        = "http://tcuthbert.net"
     }
 
 mostRecentPost :: Compiler (Item String)
